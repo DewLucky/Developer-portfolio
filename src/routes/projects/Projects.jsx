@@ -3,7 +3,7 @@ import './project.css'
 export default function Projects() {
     const projects = [
         {
-            image: '../../../public/ssl.png',
+            image: '../../../ssl.png',
             title: 'SSL Checker',
             type: 'Internship Project',
             description: 'A simple website which checks if the entered hostname of the website is secure or not by checking SSL Certificate is installed or not.'
