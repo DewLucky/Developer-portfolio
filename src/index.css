@@ -1,0 +1,96 @@
+:root{
+  --primary-color: #fe6d73;
+  --secondary-color: #fff;
+  --complimentry-color: #ff9f1c;
+  --background-color: #f0fff1;
+  --app-background-color: #fefefe;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.primary{
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+
+
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 4rem 0 0 0;
+    width: 100%;
+}
+
+.App{
+    padding: 0 2rem 2rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    width: 90%;
+    margin: 0 auto;
+    /* background: #f0f3bd; */
+    background: var(--app-background-color);
+}
+
+a {
+  font-weight: 500;
+  color: currentColor;
+  text-decoration: inherit;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  background: var(--background-color);
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.25s;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+button:hover{
+  background: transparent;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

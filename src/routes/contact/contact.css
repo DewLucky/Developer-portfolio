@@ -1,0 +1,24 @@
+.contact-container{
+    padding: 4rem 0 0 0;
+}
+
+
+.contact-details-container{
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-details-container h2{
+    font-size: 2.5rem;
+    line-height: 2;
+}
+
+.contact-details-container button{
+    margin-top: 1.6rem;
+}
+
+.contact-social-handles{
+    padding-top: 2rem;
+    margin-top: 2rem;
+}

@@ -1,0 +1,40 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.navbar-title-logo{
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.brand-logo{
+    /* background-image: linear-gradient(
+      to right,
+      #0066ff,
+      #0066ff,
+      #0035f5,
+      #0003ff
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent; */
+    color: #fe6d73;
+}
+
+.navigation{
+    display: flex;
+    list-style: none;
+}
+
+.navbar-nav-items{
+    padding: 0 1rem;
+}
+
+.navbar-nav-items a:hover{
+    color: #fe6d73;
+}
