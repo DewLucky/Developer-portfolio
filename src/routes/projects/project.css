@@ -8,8 +8,9 @@
 }
 
 .project-card{
-    width: 35%;
+    width: 18rem;
     border-radius: 1rem;
+    border: 1px solid rgba(0, 0, 255, .2);
     box-shadow: 8px 8px 2px 1px rgba(0, 0, 255, .2);
     padding: 1.5rem 1.5rem;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -39,10 +40,19 @@
     font-size: 1.4rem;
 }
 
-.project-type{
-    font-size: 14px;
-    color: var(--complimentry-color);
+.project-type-container{
+    display: flex;
     border-bottom: 2px solid #d7d7d7;
     padding: 0 0 10px 0;
     margin: 0 0 10px 0;
+}
+
+.project-type{
+    font-size: 14px;
+    color: var(--complimentry-color);
+    margin-right: 5px;
+}
+
+.live-website img, .github-link img{
+    width: 1.2rem;
 }

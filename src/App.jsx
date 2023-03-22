@@ -12,7 +12,7 @@ export default function App() {
   return (
     <>
     <div className="App">
-      <Navbar></Navbar>
+      <Navbar/>
       <Routes>
       <Route index element={<Home/>} />
       <Route path='about' element= {<About/>}/>
