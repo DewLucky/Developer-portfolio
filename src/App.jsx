@@ -1,8 +1,7 @@
 import Navbar from './components/navbar/Navbar'
 import { Route, Routes } from 'react-router-dom'
 import Home from './routes/home/Home' 
-import About from './routes/about/About'
-import Projects from './routes/projects/Projects'
+import Projects from './components/projects/Projects'
 import Contact from './routes/contact/Contact'
 import NotFound from './components/notfound/NotFound'
 import Footer from './components/footer/Footer'
@@ -15,7 +14,7 @@ export default function App() {
       <Navbar/>
       <Routes>
       <Route index element={<Home/>} />
-      <Route path='about' element= {<About/>}/>
+      {/* <Route path='about' element= {<About/>}/> */}
       <Route path='projects' element={<Projects/>} />
       <Route path='contact' element={<Contact/>}></Route>
       <Route path='*' element={<NotFound/>} />

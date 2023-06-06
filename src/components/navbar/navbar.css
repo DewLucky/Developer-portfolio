@@ -14,7 +14,7 @@
     font-size: 2rem;
 }
 
-.brand-logo{
+/* .brand-logo{ */
     /* background-image: linear-gradient(
       to right,
       #0066ff,
@@ -27,8 +27,8 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent; */
-    color: #fe6d73;
-}
+    /* color: var(--tertiary-color); */
+/* } */
 
 .navigation{
     display: flex;
@@ -40,7 +40,7 @@
 }
 
 .navbar-nav-items a:hover{
-    color: #fe6d73;
+    color: var(--primary-bright-1);
 }
 
 .cancel-logo, .menu-logo{

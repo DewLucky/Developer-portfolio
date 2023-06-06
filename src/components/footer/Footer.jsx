@@ -1,8 +1,8 @@
 import React from "react";
-import twitter from '../../assets/twitter.svg'
-import linkedIn from '../../assets/linkedIn.svg'
-import instagram from '../../assets/instagram.svg'
-import github from '../../assets/github.svg'
+import twitter from '/assets/socialIcon/twitter.svg'
+import linkedIn from '/assets/socialIcon/linkedIn.svg'
+import instagram from '/assets/socialIcon/instagram.svg'
+import github from '/assets/socialIcon/github.svg'
 import './footer.css'
 export default function Footer(){
     return(

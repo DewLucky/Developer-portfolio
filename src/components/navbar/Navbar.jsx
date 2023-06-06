@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './navbar.css'
-import menu from '/hamburger-button.svg'
-import cancel from '/cancel-logo.svg'
+import menu from '/assets/hamburger-button.svg'
+import cancel from '/assets/cancel-logo.svg'
 // import { useState } from "react";
 
 export default function Navbar() {
@@ -36,7 +36,7 @@ export default function Navbar() {
               {/* <div className="menu-logo"><img src={menu} onClick={handleBurgerClick} alt="" /></div>
               <div className="cancel-logo"><img src={cancel} onClick={handleCancelClick} alt="" /></div> */}
               <Link id="home" to="/" className="navbar-title-logo">
-                <span className="brand-logo">Lucky</span>
+                <span className="brand-logo heading-color-2">Lucky</span>
               </Link>
             </div>
 

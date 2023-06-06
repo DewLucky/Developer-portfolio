@@ -1,0 +1,15 @@
+.about-tool-item{
+    color: white;
+    align-items: center;
+    background: #26262a;
+    border-radius: 8px;
+    display: flex;
+    flex: 0 1 18%;
+    height: 60px;
+    justify-content: space-evenly;
+    margin: 1%;
+}
+
+.about-tool-item .box-icon img{
+    width: 30px;
+}

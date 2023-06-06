@@ -1,9 +1,9 @@
 import React from "react";
 import "./contact.css";
-import twitter from "../../assets/twitter.svg";
-import instagram from "../../assets/instagram.svg";
-import github from "../../assets/github.svg";
-import linkedIn from "../../assets/linkedIn.svg";
+import twitter from "/assets/socialIcon/twitter.svg";
+import instagram from "/assets/socialIcon/instagram.svg";
+import github from "/assets/socialIcon/github.svg";
+import linkedIn from "/assets/socialIcon/linkedIn.svg";
 export default function Contact() {
   return (
     <>

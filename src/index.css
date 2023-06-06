@@ -1,9 +1,21 @@
 :root{
-  --primary-color: #fe6d73;
-  --secondary-color: #fff;
-  --complimentry-color: #ff9f1c;
-  --background-color: #f0fff1;
-  --app-background-color: #fefefe;
+  --primary-bright-1: #acacac; /* Brett */
+  --primary-bright-2: #00ffdf; /* Kenna*/
+
+  
+  --primary-color-1: #acacac; /* Brett */
+  --primary-color-2: #c8d6f6; /* Kenna*/
+
+  --secondary-color-1: #58595b; /* Brett */
+  --secondary-color-2: #8492b0; /* Kenna*/
+
+  --primary-dark-1: #101218; 
+  --primary-dark-2: #03192f; /* Kenna*/
+
+  --font-family-heading: 'Montserrat', sans-serif;
+  --font-family-body: 'Inter', sans-serif;
+  --font-family-mono: 'Red Hat Mono', monospace;
+
 }
 
 html{
@@ -16,27 +28,51 @@ html{
   box-sizing: border-box;
 }
 
-.primary{
-    font-weight: 700;
-    color: var(--primary-color);
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: var(--font-family-body);
+  background-color: var(--primary-dark-1);
+
 }
 
-
+.gradient {
+  background: linear-gradient(135deg, #293d5a, #8f63ac);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  color: white;
+}
 
 #root {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 4rem 0 0 0;
-    width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 4rem 0 0 0;
+  width: 100%;
 }
 
 .App{
-    padding: 0 2rem 2rem;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
-    width: 90%;
-    margin: 0 auto;
-    /* background: #f0f3bd; */
-    background: var(--app-background-color);
+  padding: 0 2rem 2rem;
+  width: 90%;
+  margin: 0 auto;
+  color: var(--primary-color-1);
+}
+
+.heading-color-1{
+    font-weight: 700;
+    color: var(--primary-bright-1);
+}
+
+.heading-color-2{
+  font-weight: 700;
+  color: var(--primary-color-1);
+}
+
+.normal-wt{
+  font-weight: normal;
 }
 
 a {
@@ -45,15 +81,7 @@ a {
   text-decoration: inherit;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-  font-family: 'Poppins', sans-serif;
-  background: var(--background-color);
-}
+
 
 h1 {
   font-size: 3.2em;
@@ -67,37 +95,21 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  color: var(--secondary-color);
-  background-color: var(--primary-color);
+  color: var(--primary-color-1);
+  background-color: #26262a;
   cursor: pointer;
   outline: none;
-  transition: border-color 0.25s;
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 button:hover{
-  background: transparent;
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  color: var(--primary-bright-1);
+  border: 1px solid var(--primary-bright-1);
+
 }
 
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
+
 
 @media screen and (max-width:630px) {
   /* .App {

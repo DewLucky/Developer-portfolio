@@ -1,0 +1,35 @@
+.work-experience h2{
+    font-size: 3rem;
+    text-align: center;
+    margin: 8rem 0 5rem 0;
+}
+
+.experience-item p{
+    margin-bottom: 10px;
+}
+
+.position{
+    color: var(--primary-color-1);
+}
+
+.company{
+    font-size: 1.8rem;
+}
+
+.duration{
+    font-size: 0.9rem;
+}
+
+.contribution{
+    padding-top: 1rem;
+    width: 80%;
+}
+
+.contribution ul{
+    list-style: none;
+}
+
+.contribution ul li{
+    margin-bottom: 10px;
+    color: var(--secondary-color-1);
+}

@@ -1,91 +1,41 @@
-.home-container{
+.hero-container{
     display: flex;
     align-items: center;
-    flex-direction: column;
     margin: 5rem 0;
     justify-content: space-between;
 }
 
-.home-item-1{
-    width: 60%;
-    text-align: center;
+.hero-item-1{
+    width: 80%;
+    text-align: left;
+    flex: 2;
 }
 
-.home-item-2 img{
-    width: 100%;
+.hero-item-1 div.heading-color-1{
+    margin-bottom: 5px;
 }
 
-.home-item-1 p{
-    font-size: 1rem;
+.hero-item-1 p{
+    font-size: 4rem;
     font-weight: 700;
-    color: #ff9f1c;
+    color: var(--secondary-color-1);
+    word-spacing: -4px;
+    line-height: 1;
 }
 
-.home-item-1 h2{
-    font-size: 3rem;
+.hero-item-1 h2{
+    font-size: 4rem;
     line-height: 1.2;
     font-weight: 600;
 }
 
-.home-intro-heading{
-    font-size: 2rem;
-    text-align: center;
-    margin-bottom: 2rem;
+.hero-item-2{
+    text-align: right;
+    flex: 1;
 }
 
-.home-intro-container{
-    padding: 2rem 1rem;
-    width: 90%;
-    margin: 5rem auto 0 auto;
-    /* box-shadow: 0 3px 10px rgb(0 0 0 / 20%); */
-    border-radius: 10px;
-}
-
-.home-intro-items-container{
-    display: flex;
-    align-items: center;
-    width: 90%;
-    margin: 1rem auto 0 auto;
-}
-
-.home-intro-items-container p{
-    font-size: 1.05rem;
-    margin-bottom: 1rem;
-}
-
-.home-intro-item-1{
-    /* overflow: hidden; */
-    margin-right: 2rem;
-}
-
-.home-intro-item-1 img{
-    border-top-right-radius: 1rem;
-    border-bottom-left-radius: 1rem;
+.hero-item-2 img{
     width: 100%;
-    margin-right: 2rem;
-}
-
-.home-item-2{
-    padding: 0 1rem;
-}
-
-.social-handles{
-    width: 60%;
-    text-align: center;
-    margin: 3rem auto;
-}
-
-.social-links img{
-    margin: 1rem;
-    width: 40px;
-}
-
-.bottom-title{
-    font-size: 1.3rem;
-    font-weight: 500;
-    color: #fe6d73;
-    text-align: center;
-    margin: 3rem 0 2rem 0;
 }
 
 @media (min-width: 992px) and (max-width: 1135px) {
@@ -96,7 +46,7 @@
 }
 
 @media (max-width:991px) {
-    .home-intro-item-1 img {
+    .home-intro-item-2 img {
         width: 10rem;
         object-fit: cover;
         height: 10rem;
@@ -108,7 +58,7 @@
         width: 100%;
     }
 
-    .home-intro-item-1{
+    .home-intro-item-2{
         margin: 0;
     }
 
@@ -119,7 +69,6 @@
     .home-intro-items-container p {
         width: 80%;
         margin: 2rem auto;
-        text-align: center;
     }
 }
 

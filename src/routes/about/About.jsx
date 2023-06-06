@@ -1,77 +1,51 @@
 import React from "react";
-import image1 from "../../assets/developer-logo.svg";
 import "./about.css";
-import reactImage from "../../assets/react.svg";
-import javascript from "../../assets/javascript-logo.svg";
+
+import profile from "/assets/profile-picture.png";
 
 export default function About() {
   return (
     <>
-      <div className="about-container">
-        <div className="about-item-2">
-          <img src={image1} alt="" />
-        </div>
-        <div className="about-item-1">
-          <h2>Hello Everyone!</h2>
-          <p>
-          I am Lucky Dewangan from <span className="primary">Durg, Chhattisgarh (India)</span>.
-            I am pursuing <span className="primary">BTech from National Intitute of Technolog Raipur</span>,
-            Chhattisgarh (India).
-          </p>
-          <p>
-            Most of my free time spend on solving <span className="primary">leetcode problems</span> or learning
-            technologies.
-          </p>
-          <p>Currently I am learning <span className="primary">Node.Js, Express and MongoDB</span>.</p>
-        </div>
-      </div>
+      <div className="home-intro-container">
+        <h3 className="home-intro-heading heading-color-2">
+          <span>About Me</span>
+        </h3>
+        <div className="home-intro-items-container">
+          <div className="home-intro-item-1">
+            <p>
+              It all started from a excitement to win a hackathon prize. Back
+              then I just learned HTML and CSS. Built a bare minimum UI for
+              appointment management web app for local clinics. We got 3rd prize
+              from hackathon. Then I started exploring about web.
+            </p>
 
-      <div className="about-tooling-container">
-        <h2>Technologies I use</h2>
-        <div className="about-tooling">
+            <p>
+              From HTML/CSS to{" "}
+              <span className="heading-color-1 normal-wt">
+                Full Stack Developer
+              </span>{" "}
+              it's been a long journey, though I am still learning it. I am
+              skilled at developing user-friendly, visually appealing web
+              applications.
+            </p>
 
-          <div className="about-tool-item">
-            <div className="box-icon">
-              <img src={reactImage} alt="" />
-            </div>
-            <div className="box-text">
-              <p>React</p>
-            </div>
+            <p>
+              My technical skill set inludes{" "}
+              <span className="heading-color-1 normal-wt">
+                React, C++, Javascript, Node.Js, Express, MongoDB
+              </span>
+              . I am currently learning about{" "}
+              <span className="heading-color-1 normal-wt">
+                Containerization
+              </span>
+              , <span className="heading-color-1 normal-wt">CI/CD</span> and{" "}
+              <span className="heading-color-1 normal-wt">Testing</span>.
+            </p>
           </div>
-
-          <div className="about-tool-item">
-            <div className="box-icon">
-              <img src={javascript} alt="" />
+          <div className="home-intro-item-2">
+            <div>
+              <img src={profile} alt="" />
             </div>
-            <div className="box-text">Javascript</div>
-          </div>
-
-          <div className="about-tool-item">
-            <div className="box-icon">
-              <img src={javascript} alt="" />
-            </div>
-            <div className="box-text">Javascript</div>
-          </div>
-
-          <div className="about-tool-item">
-            <div className="box-icon">
-              <img src={javascript} alt="" />
-            </div>
-            <div className="box-text">Javascript</div>
-          </div>
-
-          <div className="about-tool-item">
-            <div className="box-icon">
-              <img src={javascript} alt="" />
-            </div>
-            <div className="box-text">Javascript</div>
-          </div>
-
-          <div className="about-tool-item">
-            <div className="box-icon">
-              <img src={javascript} alt="" />
-            </div>
-            <div className="box-text">Javascript</div>
           </div>
         </div>
       </div>
