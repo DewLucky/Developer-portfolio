@@ -5,6 +5,7 @@ import Projects from './components/projects/Projects'
 import Contact from './routes/contact/Contact'
 import NotFound from './components/notfound/NotFound'
 import Footer from './components/footer/Footer'
+import About from './routes/about/About'
 export default function App() {
   // const [count, setCount] = useState(0)
 
@@ -14,7 +15,7 @@ export default function App() {
       <Navbar/>
       <Routes>
       <Route index element={<Home/>} />
-      {/* <Route path='about' element= {<About/>}/> */}
+      <Route path='about' element= {<About/>}/>
       <Route path='projects' element={<Projects/>} />
       <Route path='contact' element={<Contact/>}></Route>
       <Route path='*' element={<NotFound/>} />

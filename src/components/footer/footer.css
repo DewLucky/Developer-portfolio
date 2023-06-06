@@ -10,6 +10,7 @@ footer{
     width: 90%;
     margin: 0 auto;
     padding: 1rem 0;
+    color: var(--primary-bright-1);
 }
 
 .footer-social-links{

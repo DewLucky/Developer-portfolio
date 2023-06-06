@@ -8,7 +8,7 @@ export default function Footer(){
     return(
         <footer>
             <div className="footer-container">
-                <p>&copy; copyright 2023 Lucky Dewangan</p>
+                <p>&copy;2023 Lucky Dewangan  </p>
               
                     <div className="footer-social-links">
                         <a href="https://twitter.com/lucky_dwgn05?t=pfAsJRywMQdAOpvGa6QVxw&s=09" target="_blank">
