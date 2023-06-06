@@ -38,7 +38,7 @@ export default function Projects() {
                                         <img src={externalLinkLogo} alt="" />
                                     </a>}
                                 </p>
-                                <div>{element.description}</div>
+                                <div className="project-desc">{element.description}</div>
                             </div>
                         )
                     })}

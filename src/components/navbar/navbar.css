@@ -30,7 +30,7 @@
     /* color: var(--tertiary-color); */
 /* } */
 
-.navigation{
+#navigation{
     display: flex;
     list-style: none;
 }
@@ -43,13 +43,20 @@
     color: var(--primary-bright-1);
 }
 
-.cancel-logo, .menu-logo{
+#cancel-logo, #hamburger{
     position: absolute;
     z-index: 1000;
-    top: 22px;
-    right: -14px;
+    top: 2.2rem;
+    right: 2.5rem;
+    width: 2rem;
+    cursor: pointer;
     display: none;
 }
+
+/* #hamburger{
+    width: 2.5rem;
+} */
+
 
 
 .menu-logo img, .cancel-logo img{

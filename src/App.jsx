@@ -6,12 +6,14 @@ import Contact from './routes/contact/Contact'
 import NotFound from './components/notfound/NotFound'
 import Footer from './components/footer/Footer'
 import About from './routes/about/About'
+import './app.css'
 export default function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <>
-    <div className="App">
+    <div className="App">      
+    <div id="blur-background"></div>
       <Navbar/>
       <Routes>
       <Route index element={<Home/>} />

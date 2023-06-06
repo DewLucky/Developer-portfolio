@@ -1,0 +1,215 @@
+
+/* All Media queries */
+
+/* Styles for all screen sizes */
+
+/* Mobile styles */
+@media (max-width: 576px) {
+    
+    #navigation{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        right: 0;
+        gap: 2rem;
+        font-size: 1.1rem;
+        transform: translateX(300px);
+        transition: transform 0.3s ease-in-out;  
+        z-index: 100;  
+        padding: 1.9rem 5rem 1rem 1rem;
+        height: 100vh;
+        background: #191e2a94;      
+    }
+
+    .hero-container{
+        flex-direction: column-reverse;
+        margin-top: 3rem;
+        padding: 0 1rem;
+    }
+
+    .hero-item-1{    
+        padding-top: 3.2rem;
+        width: 100%;
+    }
+
+    .hero-item-1 h2{
+        font-size: 2.2rem;
+        line-height: 1.5;
+        font-weight: 800;
+    }
+
+    .hero-item-1 p{
+        font-size: 3.2rem;
+        line-height: 1.2;
+        font-weight: 800;
+    }
+
+    .hero-item-2{
+        text-align: left;
+    }
+
+    .hero-item-2 img {
+        width: 50%;
+    }
+
+    #hamburger{
+        display: block;
+    }
+
+    .home-intro-container{
+        padding: 0 0 0 1rem;
+    }
+    
+    .home-intro-heading{
+        text-align: left;
+    }
+
+    .home-intro-items-container{
+        flex-direction: column-reverse;
+    }
+
+    .home-intro-item-2{
+        margin: 0 0 3rem 2px;
+        text-align: left;
+    }
+
+    .home-intro-item-1{
+        font-weight: 500;
+    }
+
+
+    .about-tooling{
+        padding: 0;
+        width: 100%;
+    }
+
+    .about-tool-item{
+        gap: 10px;
+        padding: 0 1rem;
+        font-size: 15px;
+    }
+
+    .box-icon{
+        width: 25px;
+    }
+
+    .box-icon img{
+        width: 100%;
+    }
+
+    .work-experience h2{
+        margin: 0 0 3rem 0;
+    }
+
+    .company .heading-color-1{
+        font-weight: 600;
+    }
+
+    .contribution{
+        padding-top: 1.5rem;
+        width: 100%;
+    }
+
+    .contribution ul li{
+        margin-bottom: 1rem;
+        line-height: 1.5;
+        font-size: 1.1rem;
+    }
+
+    .projects-container{
+        padding: 0;
+        margin: 3rem 0;
+    }
+
+    .project-cards-wrapper{
+        padding: 0;
+    }
+
+    .project-image-container img{
+        margin-bottom: 1rem;
+    }
+
+    .project-title{
+        line-height: 1.5;
+    }
+
+    .contact-details-container{
+        max-width: 100%;
+    }
+
+    .contact-details-container p{
+        line-height: 1.5;
+        font-size: 1.1rem;
+    }
+
+    footer{
+        padding: 0 0 1rem 0;
+    }
+
+    .footer-container{
+        display: block;
+    }
+
+    .footer-container p{
+        text-align: center;
+        font-family: monospace;
+        font-size: 14px;
+    }
+
+    .footer-social-links{
+        display: none;
+    }
+    
+  }
+  
+  /* Tablet styles */
+  @media (min-width: 576px) and (max-width: 665px){
+    .hero-item-1{
+        flex: 3;
+    }
+    .hero-item-2{
+        flex: 2.2;
+    }
+    .hero-item-1 h2{
+        font-size: 2.7rem;
+    }  
+    .hero-item-1 p{
+        font-size: 3rem;
+    }
+    #hamburger, #cancel-logo{
+        display: none;
+    }
+  }
+
+
+  @media (min-width: 665px) and (max-width: 992px) {
+    /* CSS rules specific to tablets and larger mobile devices */
+    .hero-item-1 h2{
+        font-size: 3rem;
+    }   
+    .hero-item-1 p{
+        font-size: 3.5rem;
+    }
+  }
+  
+  /* Desktop styles */
+  @media (min-width: 992px) {
+    /* CSS rules specific to small desktops and laptops */
+  }
+  
+  /* Large desktop styles */
+  @media (min-width: 1200px) {
+    /* CSS rules specific to large desktops and high-resolution displays */
+  }
+  
+  /* Additional media queries or specific breakpoints can be added as needed */
+ 
+  @media (min-width: 850px) and (max-width: 992px) {
+    /* CSS rules specific to small devices (portrait phones) */
+   
+  }
+  
+  
+  /* Other CSS rules that apply to all screen sizes */
+  

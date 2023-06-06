@@ -14,6 +14,11 @@
     line-height: 2;
 }
 
+.contact-details-container p{
+    width: 90%;
+    margin: 0 auto;
+}
+
 .contact-details-container button{
     margin-top: 1.6rem;
 }
