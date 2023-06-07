@@ -6,7 +6,7 @@
 }
 
 .home-intro-container{
-    margin: 5rem auto 0 auto;
+    margin: 8rem auto 0 auto;
 }
 
 .home-intro-items-container{
@@ -19,6 +19,7 @@
     margin-bottom: 1rem;
     line-height: 1.5;
     font-size: 1.1rem;
+    font-weight: 500;
     color: var(--secondary-color-1);
 }
 

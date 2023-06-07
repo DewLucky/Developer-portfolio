@@ -30,7 +30,7 @@
     /* color: var(--tertiary-color); */
 /* } */
 
-#navigation{
+.navigation{
     display: flex;
     list-style: none;
 }
@@ -43,7 +43,7 @@
     color: var(--primary-bright-1);
 }
 
-#cancel-logo, #hamburger{
+.cancel-logo, .hamburger{
     position: absolute;
     z-index: 1000;
     top: 2.2rem;
@@ -59,42 +59,8 @@
 
 
 
+
+
 .menu-logo img, .cancel-logo img{
     width: 30px;
 }
-
-@media (min-width: 631px){
-    .navigation{
-        transform: translateX(0);
-    }
-}
-
-/* @media screen and (max-width: 630px) {
-    .navbar{
-        position: relative;
-    }
-
-    .navigation {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        top: -1rem;
-        right: -3rem;
-        width: 10rem;
-        height: 100vh;
-        text-align: left;
-        padding-top: 4rem;
-        padding-left: 2rem;
-        transform: translateX(100rem);
-        background: #d1ffce85;
-        backdrop-filter: blur(8px);
-        transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    }
-
-    .navigation .navbar-nav-items{
-        margin: 1rem 0;
-    }
-    .menu-logo{
-        display: block;
-    }
-}    */

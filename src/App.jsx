@@ -15,15 +15,17 @@ export default function App() {
     <div className="App">      
     <div id="blur-background"></div>
       <Navbar/>
-      <Routes>
-      <Route index element={<Home/>} />
-      <Route path='about' element= {<About/>}/>
-      <Route path='projects' element={<Projects/>} />
-      <Route path='contact' element={<Contact/>}></Route>
-      <Route path='*' element={<NotFound/>} />
-      </Routes>
-      <div className="home-bottom-title">
-        <p className="bottom-title">Made with 💚 by Lucky Dewangan</p>
+      <div className="container">
+        <Routes>
+        <Route index element={<Home/>} />
+        <Route path='about' element= {<About/>}/>
+        <Route path='projects' element={<Projects/>} />
+        <Route path='contact' element={<Contact/>}></Route>
+        <Route path='*' element={<NotFound/>} />
+        </Routes>
+        <div className="home-bottom-title">
+          <p className="bottom-title">Made with 💚 by Lucky Dewangan</p>
+        </div>
       </div>
     </div>
     <Footer/>

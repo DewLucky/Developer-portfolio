@@ -1,7 +1,7 @@
 .hero-container{
     display: flex;
     align-items: center;
-    margin: 5rem 0;
+    margin-top: 8rem;
     justify-content: space-between;
 }
 
@@ -9,6 +9,7 @@
     width: 80%;
     text-align: left;
     flex: 2;
+    padding-right: 2rem;
 }
 
 .hero-item-1 div.heading-color-1{
@@ -20,16 +21,16 @@
 
 .hero-item-1 p{
     font-size: 4rem;
-    font-weight: 700;
+    font-weight: 800;
     color: var(--secondary-color-1);
     word-spacing: -4px;
-    line-height: 1;
+    line-height: 1.2;
 }
 
 .hero-item-1 h2{
     font-size: 4rem;
     line-height: 1.2;
-    font-weight: 600;
+    font-weight: 800;
     letter-spacing: 2px;
 }
 

@@ -7,7 +7,7 @@ export default function ToolItem(props) {
     <>
       <div className="about-tool-item">
         <div className="box-icon">
-          <img src={url + props.img} alt="" />
+          <img className={(props.toolName==`MongoDB`) && 'mongo' } src={url + props.img} alt="" />
         </div>
         <div className="box-text">
           <p>{props.toolName}</p>

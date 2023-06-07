@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState, useEffect } from "react";
 import image from "/assets/developer-logo.png";
 import "./home.css";
 import WorkExperience from "../../components/work-exp/WorkExperience";
@@ -8,6 +8,7 @@ import Projects from '../../components/projects/Projects'
 import Contact from '../contact/Contact'
 import About from "../about/About";
 export default function Home() {
+
   return (
     <>
       <div className="hero-container">

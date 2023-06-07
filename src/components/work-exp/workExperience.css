@@ -1,7 +1,11 @@
+.work-experience{
+    margin: 8rem 0 0 0;
+}
+
 .work-experience h2{
     font-size: 3rem;
     text-align: center;
-    margin: 8rem 0 5rem 0;
+    margin-bottom: 3rem;
 }
 
 .experience-item p{
@@ -31,5 +35,7 @@
 
 .contribution ul li{
     margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 1.1rem;
     color: var(--secondary-color-1);
 }

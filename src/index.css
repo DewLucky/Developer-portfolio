@@ -7,7 +7,7 @@
   --primary-color-2: #c8d6f6; /* Kenna*/
 
   /* --secondary-color-1: #58595b;  */
-  --secondary-color-1: #727272;
+  --secondary-color-1: #919191;
   --secondary-color-2: #8492b0; 
 
   --primary-dark-1: #101218; 
@@ -57,10 +57,16 @@ body {
 
 .App{
   padding: 0 2rem;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   color: var(--primary-color-1);
 }
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+
 
 .heading-color-1{
     font-weight: 700;
@@ -73,13 +79,13 @@ body {
 }
 
 .normal-wt{
-  font-weight: normal;
+  font-weight: 500;
 }
 
 a {
   font-weight: 500;
   color: currentColor;
-  text-decoration: inherit;
+  text-decoration: none;
 }
 
 
@@ -97,7 +103,7 @@ button {
   font-weight: 500;
   font-family: inherit;
   color: var(--primary-color-1);
-  background-color: #26262a;
+  background-color: #1c2632;
   cursor: pointer;
   outline: none;
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -106,7 +112,6 @@ button {
 button:hover{
   color: var(--primary-bright-1);
   border: 1px solid var(--primary-bright-1);
-
 }
 
 

@@ -1,15 +1,29 @@
 .about-tool-item{
     color: white;
     align-items: center;
-    background: #26262a;
+    background: #1c2632;
     border-radius: 8px;
     display: flex;
-    flex: 0 1 18%;
     height: 60px;
-    justify-content: space-evenly;
+    justify-content: center;
     margin: 1%;
+    height: 8rem;
+}
+
+.box-icon{
+    width: 25%;
+    text-align: center;
+    margin-right: 2rem;
 }
 
 .about-tool-item .box-icon img{
-    width: 30px;
+    width: 100%;
+}
+
+.box-icon img.mongo{
+    width: 60%;
+}
+
+.box-text{
+    font-size: 1.1rem;
 }
