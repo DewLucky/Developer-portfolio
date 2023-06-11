@@ -14,15 +14,15 @@
     padding: 2rem 0 0 0;
     border-radius: 1rem;
     display: flex;
-    gap: 1.2rem;
+    gap: 2rem;
 
 }
 
 .project-card{
     width: 18rem;
     border-radius: 1rem;
-    background-color: #1f2632;
-    color: var(--primary-color-1);
+    background-color: #1d232e;
+    color: var(--secondary-color-1);
     padding: 1.5rem 1.5rem;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
@@ -34,6 +34,7 @@
 .project-image-container{
     width: 100%;
     overflow: hidden;
+    margin-bottom: 8px;
 }
 
 
@@ -50,6 +51,7 @@
 .project-title{
     color: #f6f8ff;
     font-size: 1.4rem;
+    margin-bottom: 3px;
 }
 
 .project-type-container{
@@ -62,7 +64,7 @@
 .project-type{
     font-size: 14px;
     color: #f6f8ff;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 .project-desc{
@@ -73,4 +75,5 @@
 
 .live-website img, .github-link img{
     width: 1.2rem;
+    margin-right: 4px;
 }
