@@ -15,7 +15,8 @@
     border-radius: 1rem;
     display: flex;
     gap: 2rem;
-
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .project-card{
